@@ -1,4 +1,7 @@
+// Library Imports
 import { Routes, Route } from "react-router-dom";
+
+// Page Imports
 import { Home, Cart } from "../pages";
 
 export const AllRoutes = () => {
@@ -9,5 +12,5 @@ export const AllRoutes = () => {
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
-  )
-}
+  );
+};

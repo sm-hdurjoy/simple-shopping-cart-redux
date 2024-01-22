@@ -1,9 +1,12 @@
+// Component Imports
 import { useTitle } from "../hooks/useTitle";
 import { ProductCard } from "../components";
 
 export const Home = () => {
+  // product objects array to show on the home screen
   useTitle("Home");
 
+  // product objects array to show on the home screen
   const products = [
     {
       id: 1,
